@@ -1,12 +1,16 @@
 GEM
   remote: https://rubygems.org/
   specs:
+    archive-zip (0.7.0)
+      io-like (~> 0.3.0)
+    io-like (0.3.0)
     mini_magick (4.9.5)
 
 PLATFORMS
   ruby
 
 DEPENDENCIES
+  archive-zip (~> 0.7.0)
   mini_magick
 
 BUNDLED WITH
